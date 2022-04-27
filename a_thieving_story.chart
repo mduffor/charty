@@ -1,0 +1,69 @@
+include:
+  - loot_table.chart
+
+charts:
+  - name: room
+    entries:
+    - king's bedchambers
+    - treasure room
+    - hidden room
+    - crypt
+    - temple
+    - ruined chamber
+    - lair
+
+  - name: container
+    entries:
+    - a <chart|container_ornamentation> vase
+    - a <chart|chest_size> chest
+    - a display case
+
+  - name: chest_size
+    entries:
+    - small
+    - large
+
+  - name: container_ornamentation
+    entries:
+    - simple wooden
+    - bejeweled
+    - shiny <chart|precious_metal>
+
+  - name:  furniture
+    entries:
+    - the dias
+    - the table
+    - the pedestal
+    - an ornate stand
+
+  - name: entrance_str
+    entries:
+    - As you enter the <chart|room> you behold <chart|container> sitting atop <chart|furniture>.
+
+  - name: cross_room_str
+    entries:
+    - With quiet footfalls, you cautiously approach it.
+    - You boldly stride up to it.
+
+  - name: contents_str
+    entries:
+    - Upon gazing within you notice <chart|several_treasures>.
+
+  - name: several_treasures
+    entries:
+    - <chart|loot_A>
+    - <chart|loot_A> and <chart|loot_A>
+    - <chart|loot_A>, <chart|loot_A>, and <chart|loot_A>
+    - <chart|loot_A>, <chart|several_treasures>
+
+
+  - name: revelation_str
+    entries:
+    - Under your breath you mutter, "I'm going to be rich!"
+    - A mischievous grin crosses your face.
+    - Sweat beads on your forehead, but you know you have to steal it.
+    - Fortune favors the bold, indeed!
+
+output: |
+  <chart|entrance_str>  <chart|cross_room_str> <chart|contents_str> <chart|revelation_str>
+

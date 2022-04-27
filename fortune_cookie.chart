@@ -1,0 +1,22 @@
+charts:
+  - name: fortune_cookie
+    entries:
+    - A closed mouth gathers no feet.
+    - A conclusion is simply the place where you got tired of thinking.
+    - A cynic is only a frustrated optimist.
+    - A fanatic is one who can't change his mind, and won't change the subject.
+    - If you look back, you’ll soon be going that way.
+    - Do not mistake temptation for opportunity.
+    - He who laughs at himself never runs out of things to laugh at.
+    - He who laughs last is laughing at you.
+    - He who throws dirt is losing ground.
+    - The world may be your oyster, but it doesn't mean you'll get its pearl.
+    - The road to riches is paved with homework.
+    - It is a good day to have a good day.
+    - There is no mistake so great as that of being always right.
+    - No snowflake feels responsible in an avalanche.
+    - Don’t let statistics do a number on you.
+    - May you someday be carbon neutral.
+
+output: |
+  Your fortune reads: "<chart|fortune_cookie>"

@@ -1,0 +1,48 @@
+
+include:
+  - fortune_cookie.chart
+
+charts:
+  - name: loot_A
+    entries:
+    - a small pile of <chart|precious_baubles>
+    - a magic wand
+    - <chart|jewelry>
+    - sea shells
+    - a pair of gauntlets that glows faintly
+    - a small piece of paper with "<chart|fortune_cookie>" written on it
+
+  - name: precious_metal
+    entries:
+    - golden
+    - silver
+    - platinum
+    - copper
+    - pewter
+    - electrum
+
+  - name: precious_material
+    entries:
+    - golden
+    - carved stone
+    - ivory
+    - jade
+    - obsidian
+
+  - name: precious_baubles
+    entries:
+    - rubies
+    - diamonds
+    - pearls
+    - emeralds
+    - coins
+
+  - name: jewelry
+    entries:
+    - an anklet
+    - a bracelet
+    - a broach
+    - an ornate comb
+    - a <chart|precious_metal> crown
+    - a small <chart|precious_material> idol
+    - a <chart|precious_metal> medialion with <chart|precious_material> inlay
